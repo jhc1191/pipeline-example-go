@@ -15,4 +15,5 @@ stages:
       dockerfilePath: ./Dockerfile
       buildContext: .
       tag: example-helloserver:${CICD_EXECUTION_SEQUENCE}
+      registry: 127.0.0.1:34896
 notification: {}
